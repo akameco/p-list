@@ -1,0 +1,39 @@
+{
+  "name": "p-list",
+  "version": "0.0.0",
+  "description": "show dependencis from package.json",
+  "license": "MIT",
+  "repository": "akameco/p-list",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "package.json"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "read-pkg-up": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
