@@ -1,5 +1,7 @@
 # p-list [![Build Status](https://travis-ci.org/akameco/p-list.svg?branch=master)](https://travis-ci.org/akameco/p-list)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/akameco/p-list.svg)](https://greenkeeper.io/)
+
 > show dependencis from package.json
 
 
